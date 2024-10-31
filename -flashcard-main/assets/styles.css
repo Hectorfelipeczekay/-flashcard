@@ -1,0 +1,41 @@
+@import url(https://fonts.google.com/share?selection.family=Lavishly+Yours);
+
+body {
+    background-color: azure;
+    color: rgb(78, 168, 180);
+    font-family: "Lavishly Yours", cursive;
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+    }
+h3{
+color: rgb(3, 3, 105);
+}
+div.cartao_conteudo_respostas{
+    color: rgb(17, 199, 245);
+}
+div.cartao_conteudo_pergunta{
+    color: rgb(22, 8, 224);
+}
+footer {
+background-color: rgb(8, 243, 243);
+color: rgb(10, 10, 248);
+font-family: "Lavishly Yours", cursive;
+font-weight: 900;
+font-style: italic;
+}
+/* código omitido */
+
+#container {
+    display: flex;
+}
+
+.cartao {
+    margin: 1rem 1rem;
+    background-color: aqua;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+}
+
+/* código omitido */
